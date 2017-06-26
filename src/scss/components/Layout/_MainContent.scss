@@ -1,0 +1,47 @@
+._MainWrapper {
+  &._lock-scroll {
+    overflow: hidden;
+  }
+}
+
+._MainContent, ._MainContent > div {
+  height: 100%;
+}
+
+._theme-dark {
+  background: #131313;
+  color: #FFF;
+  transition: background .2s, color .2s;
+  a, h2, h3 {
+    color: #FFF;
+    transition: color .2s;
+  }
+  button, .button {
+    border-color: #FFF;
+    &::after {
+      background: #FFF;
+    }
+    &:hover {
+      color: #131313;
+    }
+  }
+}
+
+._theme-white {
+  background: #FFF;
+  color: #131313;
+  transition: background .2s, color .2s;
+  a, h2, h3 {
+    color: #131313;
+    transition: color .2s;
+  }
+  button, .button {
+    border-color: #131313;
+    &::after {
+      background: #131313;
+    }
+    &:hover {
+      color: #FFF;
+    }
+  }
+}

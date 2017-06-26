@@ -1,0 +1,25 @@
+.ProjectBullet {
+  max-height: 98px;
+  &__number {
+    letter-spacing: 2.5px;
+    cursor: pointer;
+    &::after {
+      transition-delay: .2s;
+    }
+  }
+  &__bullet {
+    display: block;
+    opacity: .3;
+    margin: 15px auto;
+    text-align: center;
+  }
+  &--active &__number {
+    border-bottom: 1px solid;
+  }
+  &:last-child &__bullet {
+    display: none;
+  }
+  &:last-child &__number {
+    margin-bottom: 15px;
+  }
+}

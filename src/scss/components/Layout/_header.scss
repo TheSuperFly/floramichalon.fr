@@ -1,0 +1,58 @@
+.Header {
+  padding: 35px 0;
+  margin: 0 3%;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+  z-index: 999;
+  .headroom {
+    @include headroom-transition();
+    &--unpinned {
+      transform: translateY(-71px + -35px);
+    }
+  }
+}
+
+.HeaderRight {
+  float: right;
+  width: $header-right-width;
+  text-align: right;
+  a {
+    letter-spacing: 2px;
+    color: #484848;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  span {
+    color: $light-gray;
+    padding: 0 28px;
+  }
+  &__close {
+    @include no-link-effect();
+    display: block;
+  }
+}
+
+.HeaderLeft {
+  width: $header-left-width;
+  float: left;
+  text-align: center;
+  height: 71px;
+  .icon-logo {
+    position: absolute;
+    margin-left: -35px;
+    opacity: .2;
+  }
+  a {
+    @include no-link-effect();
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &__name {
+    font-size: 18px;
+    white-space: pre-line;
+    text-align: center;
+    margin: 24px 0 0;
+  }
+}

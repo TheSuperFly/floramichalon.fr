@@ -1,0 +1,57 @@
+.FooterLeft {
+  position: fixed;
+  bottom: 73px;
+  left: 61px;
+  z-index: 99;
+  @include headroom-transition();
+  &__description {
+    width: 170px;
+    a {
+      color: $signature-red;
+    }
+  }
+  &__socials {
+    width: 74px;
+    a {
+      @include no-link-effect();
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 17px;
+      margin-bottom: 15px;
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.FooterRight {
+  position: fixed;
+  bottom: 5px;
+  right: 65px;
+  z-index: 99;
+  @include headroom-transition();
+}
+
+.Footer {
+  .headroom-wrapper {
+    height: 0 !important;
+  }
+}
+
+.headroom--unpinned {
+  .FooterLeft {
+    @extend .FooterLeft__hide;
+  }
+  .FooterRight {
+    @extend .FooterRight__hide;
+  }
+}
+
+.FooterLeft__hide {
+  transform: translateX(-74px + -61px);
+}
+
+.FooterRight__hide {
+  transform: translateX(65px + 21px)
+}

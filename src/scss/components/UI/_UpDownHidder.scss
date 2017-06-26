@@ -1,0 +1,6 @@
+.UpDownHidder {
+  overflow-y: hidden;
+  &__children {
+    transition: transform .25s;
+  }
+}

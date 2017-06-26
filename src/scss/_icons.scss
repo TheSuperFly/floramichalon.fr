@@ -1,0 +1,41 @@
+.icon, i {
+  display: inline-block;
+  background-size: cover;
+  overflow: hidden;
+  text-indent: 101%;
+}
+
+.icon-logo {
+  height: 71px;
+  width: 71px;
+}
+
+.icon-behance {
+  background-image: url('../assets/img/icon-behance.png');
+  width: 26px;
+  height: 17px;
+}
+
+.icon-dribbble {
+  background-image: url('../assets/img/icon-dribbble.png');
+  width: 23px;
+  height: 23px;
+}
+
+.icon-linkedin {
+  background-image: url('../assets/img/icon-linkedin.png');
+  width: 20px;
+  height: 20px;
+}
+
+.icon-twitter {
+  background-image: url('../assets/img/icon-twitter.png');
+  width: 26px;
+  height: 23px
+}
+
+.icon-close {
+  background-image: url('../assets/img/icon-close.png');
+  width: 16px;
+  height: 16px;
+}

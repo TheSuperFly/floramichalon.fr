@@ -1,0 +1,6 @@
+.UpDownTextSwap {
+  overflow-y: hidden;
+  &__text span, &__nextText span {
+   position: relative;
+  }
+}

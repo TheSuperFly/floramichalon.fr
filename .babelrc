@@ -1,0 +1,47 @@
+{
+  "presets": [
+    "react",
+    "stage-1"
+  ],
+  "plugins": [
+    "react-hot-loader/babel"
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        "env",
+        "react-hmre"
+      ],
+      "plugins": [
+        "transform-react-constant-elements",
+        "transform-react-remove-prop-types",
+        "transform-decorators-legacy",
+        "transform-class-properties"
+      ]
+    },
+    "production": {
+      "presets": [
+        [
+          "env",
+          {
+            "es2015": {
+              "modules": false
+            }
+          }
+        ]
+      ],
+      "plugins": [
+        "transform-react-constant-elements",
+        "transform-react-remove-prop-types",
+        "transform-decorators-legacy",
+        "transform-class-properties"
+      ]
+    },
+    "test": {
+      "presets": [
+        "env"
+      ]
+    }
+  }
+}
+

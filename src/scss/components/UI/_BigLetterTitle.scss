@@ -1,0 +1,25 @@
+.BigLetterTitle {
+  position: relative;
+  &__titleContainer {
+    margin-bottom: 50px;
+  }
+  &__title {
+    font-family: $font-serif;
+    font-size: 70px;
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #000;
+  }
+  &__bigLetter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 280px;
+    line-height: 0;
+    opacity: .03;
+    font-family: $font-serif;
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "name": "Life",
+      "slug": "life",
+      "shortDescription": "Website, Marketing",
+      "year": "2017",
+      "image": "/assets/img/projects/life_2.jpg",
+      "theme": "dark",
+      "maskLeft": {
+        "y": "40%"
+      },
+      "maskRight": {
+        "y": "30%"
+      },
+      "extended": {
+        "format": "Website, Branding",
+        "type": "Client Project",
+        "role": "Art Director",
+        "brief": "Life-orchestra.com is the website of an orchestra of international varieties. It is a wordpress website that presents the orchestra, its musical styles, its references and allows to contact them. I did a redesign of this website not for an aesthetic purpose, but in first for a marketing goal, to improve their SEO and conversions. When I started the project, the LIFE orchestra did not really have any contract proposals. It was a really difficult time for them. They therefore needed to improve their visibility to continue to prosper. For this project, I made a design optimized for SEO. The client needed more visibility, more visits and more conversions. A marketing-oriented design pushes the customer to the buying decision. The original website had many problems. The home page had no CTA button, there was no real footer, no page describing their services. There was also no contact form, yet very useful for conversion and SEO. The website in general was rather vague, and not precise enough for a service that still has a high price. I therefore, after several surveys and interviews, improved the user way and the architecture of the pages. I also created pages for GOOGLE ADWORDS, which help a complete adword campaign.",
+        "imageSubBrief": "/assets/img/projects/extended/life/life_subbrief.jpg",
+        "featuredImage": "/assets/img/projects/extended/life/life_featured.png",
+        "headline": "« Music is Life, that’s why our hearts have beats »  – LIFE",
+        "headlineBackgroundImage": "/assets/img/projects/extended/life/life_headlineBackground.jpg",
+        "fullCaseStudyText": "Check out the full case study on Behance.",
+        "fullCaseStudyLink": "https://www.behance.net/gallery/51330099/LIFE-Orchestra-Client-website-Marketing-design",
+        "mockups": [
+          "/assets/img/projects/extended/life/life_mockup1.jpg",
+          "/assets/img/projects/extended/life/life_mockup2.jpg",
+          "/assets/img/projects/extended/life/life_mockup3.jpg",
+          "/assets/img/projects/extended/life/life_mockup4.jpg",
+          "/assets/img/projects/extended/life/life_mockup5.jpg",
+          "/assets/img/projects/extended/life/life_mockup6.jpg"
+        ],
+        "enableMockupBlocks": true
+      }
+    },
+    {
+      "id": 1,
+      "name": "Foodies",
+      "slug": "foodies",
+      "shortDescription": "UI Kit",
+      "year": "2017",
+      "image": "/assets/img/projects/foodies_3.png",
+      "theme": "white",
+      "maskLeft": {
+        "y": "35%"
+      },
+      "maskRight": {
+        "y": "25%"
+      },
+      "extended": {
+        "format": "UI Kit, Theme",
+        "type": "Client Project",
+        "role": "Art Director",
+        "brief": "FOODIES is a UI and wireframes kit for eCommerces and restaurants websites. It is also many experiments that I have made to understand how to allow the customer to think with me for the personalization of his website, with professional supports that are already at his disposal. It can be seen like a theme, because of its big possibility of adaptation : every card is thank to be in little, large, medium … Foodies has very simple  graphic guidelines, to be personnalized by every type of user. I took asian food for this example, but it can be used for every type of food : american, french, mexican … It’s composed of more 100 cards, to give you a real freedom of using.",
+        "imageSubBrief": "/assets/img/projects/extended/foodies/foodies_sub_1.jpg",
+        "headline": "",
+        "headlineBackgroundImage": "/assets/img/projects/extended/foodies/foodies_sub.jpg",
+        "fullCaseStudyText": "Check out the full case study on Behance.",
+        "fullCaseStudyLink": "https://www.behance.net/gallery/50785669/Foodies-eCommerce-restaurants-theme-UI-kit",
+        "mockups": [
+          "/assets/img/projects/extended/foodies/foodies_1.png",
+          "/assets/img/projects/extended/foodies/foodies_2.png",
+          "/assets/img/projects/extended/foodies/foodies_3.png",
+          "/assets/img/projects/extended/foodies/foodies_4.png"
+        ],
+        "enableMockupBlocks": false
+      }
+    },
+    {
+      "id": 2,
+      "name": "EoG",
+      "slug": "Embassy of Game",
+      "shortDescription": "Branding",
+      "year": "2017",
+      "image": "/assets/img/projects/EOG_0.jpg",
+      "projectUrl": "http://tempo.zachary.pm/",
+      "theme": "dark",
+      "maskLeft": {
+        "y": "35%"
+      },
+      "maskRight": {
+        "y": "30%"
+      },
+      "extended": {
+        "format": "Website, Branding",
+        "type": "Client Project",
+        "role": "Art Director",
+        "projectGoal": "Marketing Design",
+        "brief": "Embassy of Game is a new escape game based on the spy theme and the Kingsman universe. It is a rich, premium, high-end universe. The customer asked me to create all the branding of his company, from the logo to the graphic charter, story-telling, print and digital media. After many drafts, I finally offered them this visual identity.",
+        "imageSubBrief": "/assets/img/projects/extended/eog/eog_subtext.png",
+        "featuredImage": "/assets/img/projects/extended/eog/eog_subimage.png",
+        "headline": "After several drafts, I created a logo with the inspiration of a Chinese puzzle, symbol of a puzzle that must be solved. I gave it a fortress aspect, in 3D. I included a certain geometry, to inspire an official side, hard and a little futuristic.",
+        "headlineBackgroundImage": "/assets/img/projects/extended/eog/eog_back.png",
+        "fullCaseStudyText": "Check out the full case study on Behance.",
+        "fullCaseStudyLink": "https://www.behance.net/gallery/52530773/Embassy-of-Game-Client-Project-Logo-Branding",
+        "mockups": [
+          "/assets/img/projects/extended/eog/eog_mock_1.png"
+        ],
+        "enableMockupBlocks": false
+      }
+
+    }
+  ]
+}

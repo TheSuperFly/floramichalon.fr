@@ -1,0 +1,26 @@
+.ProjectImageSquares {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+  transition: width 0.5s;
+  .rcp {
+    margin: 0 auto;
+  }
+  .rcp-image {
+    background-position: center;
+  }
+  .ProjectImageSquare {
+    &__left, &__right {
+      position: relative;
+      display: block;
+      transition: height 0.5s, y 0.5s, x 0.5s;
+    }
+  }
+  &--fullWidth {
+    .ProjectImageSquare__left, .ProjectImageSquare__right {
+      transition: height 0.5s, y 0.5s, x 0.5s, width 0.5s;
+    }
+  }
+}

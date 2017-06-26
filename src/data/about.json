@@ -1,0 +1,37 @@
+{
+  "biography": "I’m Flora Michalon, a 23 years old designer based in Paris. Passionated by all kind of digital creation, I’m student at @HETIC. I’m looking for a 5-6 months internship, also available for freelance mission.",
+  "email": "flora.michalon@gmail.com",
+  "resumee": "/Floras-Resumee.pdf",
+  "social": [
+    {
+      "link": "https://www.behance.net/FloraMichalon",
+      "name": "Behance",
+      "featured": true
+    },
+    {
+      "link": "https://dribbble.com/FloraMichalon",
+      "name": "Dribbble",
+      "featured": true
+    },
+    {
+      "link": "https://twitter.com/FloraMichalon",
+      "name": "Twitter",
+      "featured": true
+    },
+    {
+      "link": "https://fr.pinterest.com/floramichalon/",
+      "name": "Pinterest",
+      "featured": false
+    },
+    {
+      "link": "https://www.linkedin.com/in/floramichalon/",
+      "name": "LinkedIn",
+      "featured": true
+    },
+    {
+      "link": "https://500px.com/floramichalon",
+      "name": "500px",
+      "featured": false
+    }
+  ]
+}

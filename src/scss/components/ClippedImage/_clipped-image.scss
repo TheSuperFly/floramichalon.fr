@@ -1,0 +1,9 @@
+.rcp {
+  position: relative;
+  z-index: 1;
+  &-clipper-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

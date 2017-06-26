@@ -1,0 +1,64 @@
+.AboutPage {
+  background: #1A1A1A;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__inner {
+    @extend .row;
+  }
+}
+
+.AboutPageBiography {
+  margin-bottom: 109px;
+  &__biography {
+    white-space: pre-line;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    max-width: 800px;
+  }
+  &__bigLetter {
+    float: right;
+    position: relative;
+    right: 200px;
+    .BigLetterTitle__bigLetter {
+      font-size: 420px;
+    }
+  }
+  &__cta {
+    text-align: center;
+    a {
+      opacity: .5;
+      margin-top: 50px;
+      margin-right: 37px;
+      min-width: 140px;
+    }
+  }
+}
+
+.AboutPageSocial {
+  display: flex;
+  justify-content: space-between;
+  a {
+    color: #A1A1A1;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2.32px;
+  }
+}
+
+.AboutPageCredits {
+  float: right;
+  position: relative;
+  top: 100px;
+  color: #626262;
+  a {
+    color: #626262;
+  }
+}
